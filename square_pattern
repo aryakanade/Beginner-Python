@@ -1,0 +1,10 @@
+n = int(input("Enter number of row: ", ))
+m = int(input("Enter number of columns: ",))
+
+for i in range(n):   #fo loop will run from i=0 to i<n
+    for j in range(m):  #nested for loop will run from j=0 to j<m
+        print('0',end=" ")
+    print()
+    
+#n is number of rows
+#m is number of columns
