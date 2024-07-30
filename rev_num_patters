@@ -1,0 +1,12 @@
+n = int(input("Enter the value of n: ",))  #no of rows
+
+for i in range(n):
+    for j in range(n-i-1):
+        print(" ",end=" ")
+    for k in range(1,i+2):
+        print(k,end=" ")
+    print()
+
+    
+#in j for loop. n-i-1 is the number of spaces printed
+#in k for loop, k is the value to be printed after giving spaces. The value to be printed is from 1 to i+2. where i+2 is not included.
