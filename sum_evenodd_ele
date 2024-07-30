@@ -3,7 +3,7 @@ even_sum = 0
 odd_sum = 0
 n = len(num)
 for i in range(n):
-  if i%2 == 0:
+  if num[i]%2 == 0:
     even_sum += num[i]
   else:
     odd_sum += num[i]
@@ -11,4 +11,4 @@ print([even_sum,odd_sum])
 
 
 
-#on the basis of indexes
+
