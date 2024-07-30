@@ -1,0 +1,10 @@
+n = int(input("Enter the value of n: ",))  #no of rows
+
+for i in range(n):
+    for j in range(n-i):
+        print(n-i,end=" ")
+    print()
+
+    
+#in j for loop. n-i is the value printed
+#first row1 is printed with n-i values and so it goes upto end.
