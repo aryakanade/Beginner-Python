@@ -1,0 +1,9 @@
+arr = [1,2,2,3,4,5,5,6]
+n = len(arr)
+vis = [False for i in range(n)]
+count = 0
+for i in range(n):
+  if vis[arr[i]] == False:
+    count += 1
+    vis[arr[i]] = True
+print(count)
