@@ -1,0 +1,12 @@
+s = 70
+e = 71
+rev_sum = 0
+for i in range(s,e+1):
+  rev = 0
+  num = i
+  while num > 0:
+    digit = num%10
+    rev = rev * 10 + digit
+    num = num // 10
+  rev_sum += rev
+print(rev_sum)
